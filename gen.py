@@ -1,10 +1,11 @@
 import sys
+import config
 
 from neonize.client import NewClient
 from neonize.events import ConnectedEv, PairStatusEv
 
 
-session_name = input('Enter session name:')
+session_name = input('Enter session name:') or  config.session_name
 
 client = NewClient(session_name)
 client.connect()
