@@ -1,4 +1,4 @@
-# WhatsApp Bot by NandhaXD 🚀
+# WhatsApp Bot by NandhaBots 🚀
 
 A simple, smart WhatsApp bot built with Python using the neonize library. Deploy easily on Termux and connect via QR code.
 
@@ -53,6 +53,7 @@ Facing any deployment issues?
 
 **Made with ❤️ by [NandhaXD](https://github.com/NandhaxD)**  
 ⭐ **Star this repo if it helps!**
+
 
 
 
