@@ -13,7 +13,7 @@ devs_list = [
 
 
 db_url: str = '' # mongo db uri
-db_name = 'whatsappbot'
+db_name = session_name = 'whatsappbot'
 
 
 chatbot_chats: list[int] = []
@@ -34,3 +34,4 @@ Use only those markdown style formats for response:
 groq_api_key = '' # your groq api-key
 
 MODULE = {};HANDLER = {};ALL_FUNC = set();DISABLED_FUNC = {}
+
